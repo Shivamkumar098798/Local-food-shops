@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <title>MSHS Project</title>
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="img/business.png"> Local Food Shopes</a>
+        <nav class="navbar">
+            <a href="#home">About Us</a>
+            <a href="#Contact">Contact Us</a>
+            <a href="#Shopes">Shopes</a>
+            <a href="#Location">Location</a>
+            <a href="#categories">categories</a>
+            <a href="#products">products</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            
+        </div> 
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here....">
+            <label for="search-box" class="fas fa-search"></label>
+            
+
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                 <img src="img/">
+                 <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                 </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                 <img src="img/">
+                 <div class="content">
+                    <h3>potato</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                 </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                 <img src="img/">
+                 <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                 </div>
+            </div>
+            <div class="total">total : $19.69/-</div>
+            <a href="#" class="btn"> check out </a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="user name" placeholder="user name" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#"> click here </a></p>
+            <p>Don't have account <a href="#"> create now </a></p>
+            <input type="submit" value="login now"  class="btn">
+        </form>
+
+    </header>
+<!-- header end -->
+
+    <!-- home screen start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh and <span>organic</span> products for your</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam atque doloribus, nobis expedita magnam est ut ullam ab illum, eum amet. Culpa </p>
+            <a href="#" class="btn"> Shope Account </a> 
+            <a href="#" class="btn"> Customer </a>       
+        </div>
+
+    </section>
+<!-- home section end -->
+    <!-- features section start -->
+    <section class="features" id="features">
+        <h1 class="heading">Our<span>Street Shope</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/">
+                <h3>shopes 1 </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis voluptatem suscipit. Fuga porro deleniti molestias consequun</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="img/">
+                <h3>shopes 1 </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis voluptatem suscipit. Fuga porro deleniti molestias consequun</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="img/">
+                <h3>shopes 2 </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis voluptatem suscipit. Fuga porro deleniti molestias consequun</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="img/">
+                <h3>shopes 1 </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis voluptatem suscipit. Fuga porro deleniti molestias consequun</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="img/">
+                <h3>shopes 1 </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis voluptatem suscipit. Fuga porro deleniti molestias consequun</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <h3> ALL Shopes... </h3>
+                <a href="feature.html" class="btn">Click Hear</a>
+            </div>
+        </div>
+    </section>
+    <!-- features section end -->
+    <!-- items section start -->
+    <section class="products" id="products">
+      
+        <h1 class="heading">Our<span>food Items</span></h1>
+      
+      <div class="swiper product-slideer">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="img/Dhokla.jpg" alt="">
+                <h3>Dhokla</h3>
+                <div class="price">&#8377;90/- to &#8377;300/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/Fafada & jalybi.jfif" alt="">
+                <h3 >Fafda and Jalebi</h3>
+                <div class="price">&#8377;90/- to &#8377;300/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/Pav Bhaji.jfif" alt="">
+                <h3>Pav Bhaji</h3>
+                <div class="price">&#8377;90/- to &#8377;300/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/Fafada & jalybi.jfif" alt="">
+                <h3 >Fafda and Jalebi</h3>
+                <div class="price">&#8377;90/- to &#8377;300/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+     
+      </div>
+
+      <div class="swiper product-slideer">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="img/Dhokla.jpg" alt="">
+                <h3>Dhokla</h3>
+                <div class="price">&#8377;90/- to &#8377;300/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/Fafada & jalybi.jfif" alt="">
+                <h3 >Fafda and Jalebi</h3>
+                <div class="price">&#8377;90/- to &#8377;300/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/Pav Bhaji.jfif" alt="">
+                <h3>Pav Bhaji</h3>
+                <div class="price">&#8377;90/- to &#8377;300/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/Pav Bhaji.jfif" alt="">
+                <h3>Pav Bhaji</h3>
+                <div class="price">&#8377;90/- to &#8377;300/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+      </div>
+
+    </section>
+     <!-- items section end -->
+
+
+     <!-- categories section starts -->
+     <section class="categories" id="categories">
+
+        <h1 class="heading">Product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="#" alt="">
+                <h3>Non Veag Shopes</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Cheak Now</a>
+            </div>
+
+            <div class="box">
+                <img src="#" alt="">
+                <h3>Veag Shopes</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Cheak Now</a>
+            </div>
+
+            <div class="box">
+                <img src="#" alt="">
+                <h3>Junck Food Shopes</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Cheak Now</a>
+            </div>
+
+            <div class="box">
+                <img src="#" alt="">
+                <h3>Fruit Shopes</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Cheak Now</a>
+            </div>
+
+            <div class="box">
+                <img src="#" alt="">
+                <h3>Fruit Shopes</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Cheak Now</a>
+            </div>
+
+
+        </div>
+
+     </section>
+     <!-- categories section end -->
+     <!-- review section start -->
+     <section class="review" id="review">
+        
+        <h1 class="heading" >Customer <span>review</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="#" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Modi cumque mollitia sint ipsam eius alias explicabo non vitae autem illo voluptatibus<br> totam aliquid temporibus hic excepturi corporis ipsum, tenetur adipisci!</p>
+                    <h3>Manashvi barad</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-full-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="#" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Modi cumque mollitia sint ipsam eius alias explicabo non vitae autem illo voluptatibus<br> totam aliquid temporibus hic excepturi corporis ipsum, tenetur adipisci!</p>
+                    <h3>Shivam kumar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="#" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Modi cumque mollitia sint ipsam eius alias explicabo non vitae autem illo voluptatibus<br> totam aliquid temporibus hic excepturi corporis ipsum, tenetur adipisci!</p>
+                    <h3>Harsh kumar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="#" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Modi cumque mollitia sint ipsam eius alias explicabo non vitae autem illo voluptatibus<br> totam aliquid temporibus hic excepturi corporis ipsum, tenetur adipisci!</p>
+                    <h3>Sundar shahu</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-full-alt"></i>
+                        <i class="fas fa-star-full-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="#" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Modi cumque mollitia sint ipsam eius alias explicabo non vitae autem illo voluptatibus<br> totam aliquid temporibus hic excepturi corporis ipsum, tenetur adipisci!</p>
+                    <h3>Shivam kumar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+     </section>
+     <!-- review section end -->
+
+     <!-- blog social media icons  & about us start-->
+     <section class="blogs" id="blogs">
+        <h1 class="heading">Our<span>Blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <!-- <video  controls >
+                <source src="video/video1.mp4" type="video/mp4">
+                </video> -->
+                <img src="img/Dhokla.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user">by user</i></a>
+                        <a href="#"><i class="fas fa-calendar"></i> 2nd july 2023 </a>
+                    </div>
+                    <h3>fresh and best street food shopes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, voluptas.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <video controls >
+                    <source src="video/video1.mp4" type="video/mp4">
+                </video>
+                <!-- <img src="img/Fafada & jalybi.jfif" alt=""> -->
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user">by user</i></a>
+                        <a href="#"><i class="fas fa-calendar"></i> 2nd july 2023 </a>
+                    </div>
+                    <h3>fresh and best street food shopes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, voluptas.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+            <div class="box">
+                <video controls >
+                    <source src="video/video1.mp4" type="video/mp4">
+                </video>
+                <!-- <img src="img/Fafada & jalybi.jfif" alt=""> -->
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user">by user</i></a>
+                        <a href="#"><i class="fas fa-calendar"></i> 2nd july 2023 </a>
+                    </div>
+                    <h3>fresh and best street food shopes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, voluptas.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+        </div>
+     </section>
+      <!-- blog social media icons  & about us end-->
+
+       <!-- social media start -->
+            <div class="height450">
+                <div class="social-overlap process-scetion mt100">
+                 <div class="containers">
+                     <div class="row justify-content-center">
+                         <div class="col-md-10">
+                             <div class="social-bar">
+                                 <div class="social-icons mb-3 iconpad text-center">
+                                    
+                                     
+                                     <a  class="slider-nav-item"><i class="fab fa-facebook"></i></a>
+                                     <a  class="slider-nav-item"><i class="fab fa-google-plus"></i></a>
+                                     <a  class="slider-nav-item"><i class="fab fa-twitter"></i></a>
+                                     <a href="https://www.youtube.com/watch?v=_XiOcsj3oNI&t=50s" target="_blank" class="slider-nav-item"><i class="fab fa-instagram"></i></a>
+                                     <a href="https://www.youtube.com/watch?v=_XiOcsj3oNI&t=50s" target="_blank" class="slider-nav-item"><i class="fab fa-linkedin"></i></a>
+                                     <a  target="_blank" class="slider-nav-item"><i class="fab fa-pinterest"></i></a>
+                                     <a href="https://www.youtube.com/watch?v=_XiOcsj3oNI&t=50s" target="_blank" class="slider-nav-item"><i class="fab fa-skype"></i></a>                                
+                                     <a href="#" class="slider-nav-item"><i class="fab fa-youtube"></i></a>
+                                     <a href="#" class="behance slider-nav-item"><i class="fab fa-behance"></i></a>
+                                     <a href="https://www.youtube.com/watch?v=_XiOcsj3oNI&t=50s" target="_blank" class="slider-nav-item"><i class="fab fa-dribbble"></i></a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+            </div> 
+   
+        <!-- social media end -->
+      <!-- footer start -->
+
+      <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3><img src="img/business.png">Local Street Food</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"> </a>
+                    <a href="#" class="fab fa-github"> </a>
+                    <a href="#" class="fab fa-figma"> </a>
+                    <a href="#" class="fab fa-youtube"> </a>
+                    <a href="#" class="fab fa-whatsapp"> </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +91 9508-3845 </a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +91 9508-3845 </a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> shivamkumar@gmail.com </a>
+                <a href="#" class="links"><i class="fas fa-map-marked-alt"></i> mumbai, india - 821108 </a>
+
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> Home </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> Contact Us </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>privacy Policy </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> About me </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> blog </a>
+
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest update</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="img/business.png" class="payment-img" alt="">
+
+            </div>
+
+
+        </div>
+        <div class="credit"> Created by <span>mr. web designer</span> | all @ right reserved </div>
+      </section>
+      <!-- footer end -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
